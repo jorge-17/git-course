@@ -23,7 +23,7 @@ Crea una nueva rama
 git checkout [branch-name]
 Cambia a la rama especificada y actualiza el directorio activo
 
-	git checkout {{{nombre de la rama}}}
+	git checkout [branch-name]
 	
 git add [file]
 Toma una instantánea del archivo para preparar la versión
