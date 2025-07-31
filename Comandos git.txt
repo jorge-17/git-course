@@ -1,0 +1,41 @@
+Comandos git explicados por Miguelon
+
+git clone
+Descarga un proyecto y toda su historia de versión 
+
+	git clone [url]
+	
+git status
+Enumera todos los archivos nuevos o modificados que se deben confirmar
+
+	git status
+	
+git branch
+Enumera todas las ramas en el repositorio actual
+
+	git branch
+
+git branch [branch-name]
+Crea una nueva rama
+
+	git branch [branch-name]
+	
+git checkout [branch-name]
+Cambia a la rama especificada y actualiza el directorio activo
+
+	git checkout {{{nombre de la rama}}}
+	
+git add [file]
+Toma una instantánea del archivo para preparar la versión
+
+	git add [file]
+	
+git fetch [bookmark]
+Descarga todo el historial del marcador del repositorio
+
+	git fetch [bookmark]
+	
+git push [alias] [branch]
+Carga todos los commits de la rama local al repositorio remoto
+
+	git push [alias] [branch]
