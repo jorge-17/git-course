@@ -39,3 +39,8 @@ git push [alias] [branch]
 Carga todos los commits de la rama local al repositorio remoto
 
 	git push [alias] [branch]
+	
+git pull [alias] [branch]
+Descarga el historial del marcador e incorpora cambios
+
+	git pull [alias] [branch]
